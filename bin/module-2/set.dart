@@ -1,7 +1,7 @@
 void main(){
 
   Set<String> colors={'green','red'};
-  
+
   colors.add('orange');
   print(colors);
   print(colors.elementAt(1));
@@ -11,4 +11,11 @@ void main(){
   print(colors.isNotEmpty);
   print(colors.isEmpty);
   print(colors.contains('orange'));
+
+
+
+    Set<int?> numbers = {1, 2, null, 3};
+
+    print(numbers.length);
+
 }
