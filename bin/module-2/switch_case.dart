@@ -1,28 +1,27 @@
-import 'dart:io'; //user theke input
+// import 'dart:io'; //user theke input
 
 main() {
-  print('Enter day: ');
-  String? day = stdin.readLineSync(); //user theke input not nullable
-
-  switch (day) {
-    case 'Fri':
-      print('Relax');
-      break;
-    case 'Sat':
-      print('Outgoing');
-      break;
-    case 'Sun':
-      print('Gym');
-      break;
-  }
+  // print('Enter day: ');
+  // String? day = stdin.readLineSync(); //user theke input not nullable
+  //
+  // switch (day) {
+  //   case 'Fri':
+  //     print('Relax');
+  //     break;
+  //   case 'Sat':
+  //     print('Outgoing');
+  //     break;
+  //   case 'Sun':
+  //     print('Gym');
+  //     break;
+  // }
   // multiple case
 
-  int month = 7;
+  int month = 2;
 
   switch (month) {
-    case 12:
-    case 1:
-    case 2:
+    case 12 || 1 || 2:
+
       print('winter');
       break;
     case 4:
