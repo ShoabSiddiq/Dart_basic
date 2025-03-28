@@ -9,9 +9,22 @@ main(){
   print('\n');
 
   List<String>students= ['karim','rafiq','kamal','sabbir','hessen'];
-  // print('Student index 2 : ${students[2]}');
+  List<int>amount= [1000,355,500,2446,1200];
+
+  print('Student index 2 : ${students[2]}');
+  print('\n');
   for(int index=0; index<students.length; index++){
-    print('Student $index name : ${students[index]}');
+    print('Student $index name : ${students[index]}\nyour ${amount[index]} payment due');
   }
+  print('\n');
+
+  // for(var student in students){
+  //   int index = students.indexOf(student);
+  //   print("Student $index name : ${students[index]} \nyour ${amount[index]} payment due");
+  // }
+  students.asMap().forEach((index, student) {
+    print("Student $index name : ${students[index]} \nyour ${amount[index]} payment due");
+  });
+
 
 }
