@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 main(){
    //without function
 
@@ -11,5 +13,10 @@ main(){
   double area2=length2*width2;
   print('Area2 = $area2');
 
+  print('Area-1 function: ${calculateArea(0.5, 0.5)}');
+  print('Area-2 function: ${calculateArea(0.75, 12.65)}');
 }
-//with function
+double calculateArea(double length, double width){
+   double area= length * width;
+   return area;
+}
