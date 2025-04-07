@@ -15,11 +15,34 @@ main(){
   print(student1.studentName);
   print(student1.studentClass);
   print(student1.studentAddress);
+  print('\n');
+
+  Human kamal= Human(); //object created
+  print(kamal.hands);
+  print(kamal.legs);
+  print(kamal.eye);
+  print('\n');
+
+  Human rahim= Human();
+  rahim.eye=2;
+  rahim.hands=1;
+  print(rahim.eye);
+  print(rahim.hands);
+
 }
 
 class Student{
   String ? studentName;
   String ? studentClass;
   String ? studentAddress;
+
+}
+
+class Human{
+  int legs= 2;
+  int hands= 2;
+  late String color;
+  int eye=2;
+  late String name;
 
 }
