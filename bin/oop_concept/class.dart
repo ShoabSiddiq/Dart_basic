@@ -24,10 +24,14 @@ main(){
   print('\n');
 
   Human rahim= Human();
+  rahim.name='Rahim';
   rahim.eye=2;
   rahim.hands=1;
   print(rahim.eye);
   print(rahim.hands);
+  rahim.moving();
+  rahim.eating();
+  rahim.walking();
 
 }
 
@@ -44,5 +48,18 @@ class Human{
   late String color;
   int eye=2;
   late String name;
+
+  moving(){
+    print('$name is moving'); // method
+  }
+
+  eating(){
+    print('$name is eating'); // method
+  }
+
+  int walking(){
+    print('$name is walking'); /// another way calling method
+    return 1;
+  }
 
 }
