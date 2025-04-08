@@ -15,6 +15,10 @@ class Human{
   eating(){
     print('$name is eating'); // method
   }
+  
+  static sleep(){
+    print('Human is Sleeping');
+  }
 
   int walking(){
     print('$name is walking'); /// another way calling method
