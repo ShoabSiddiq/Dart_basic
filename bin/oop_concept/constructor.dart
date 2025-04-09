@@ -3,6 +3,7 @@ main(){
   print(honda.brand);
   print(honda.model);
   print(honda.year);
+  honda.moving();
 }
 
 
@@ -13,4 +14,8 @@ class Car{
 
   // Constructor
   Car(this.brand,this.model,this.year); //this means car class k refer korse
+
+  moving(){
+    print('$model is moving');
+  }
 }
