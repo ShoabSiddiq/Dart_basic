@@ -2,6 +2,8 @@ main(){
   Son Rifat = Son('Rifat');
   Rifat.land= '2 acore land';
   Rifat.house='Multipurpose house';
+  Rifat.incomeSource();
+  Rifat.getFatherIncomeSource();
 
   print(Rifat.land);
   print(Rifat.house);
@@ -25,5 +27,14 @@ class Father{
 class Son extends Father{
   String sonName;
 
-  Son(this.sonName) : super ('Karim');
+  @override
+  incomeSource() {
+    print('App Developer');
+  }
+
+  getFatherIncomeSource(){
+    super.incomeSource();
+  }
+
+  Son(this.sonName) : super ('Karim');  // parent class k extend  korte super use kora hoy
 }
