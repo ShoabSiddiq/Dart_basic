@@ -1,6 +1,6 @@
 class Student{
   void attendClass(){     //void use krleo hbe na krleo hbe
-   print('joined class');
+    print('joined class');
   }
   void examSubmit(){
 
