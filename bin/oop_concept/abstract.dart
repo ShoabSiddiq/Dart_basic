@@ -13,7 +13,7 @@ class person extends Student{
 
   @override
   attendClass() {          //abstract method k must override diye call korte hobe
-
+    print('$name joined class');
   }
 }
 
