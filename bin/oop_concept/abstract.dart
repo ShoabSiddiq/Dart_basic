@@ -1,3 +1,4 @@
+
 abstract class Student{  // directly access kora jabe na, inherit r maddhome krte hobe
                           // but object create r maddhome kora possible na
 
@@ -21,3 +22,4 @@ main(){
   person rafi = person('Rafi');
   rafi.attendClass();
 }
+
