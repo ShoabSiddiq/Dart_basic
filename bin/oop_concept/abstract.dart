@@ -41,4 +41,4 @@ main(){
   BusinessMan Rahim= BusinessMan('Rahim');
   Rahim.examSubmit();
 }
-
+huuu
