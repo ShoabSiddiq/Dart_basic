@@ -43,6 +43,30 @@ main(){
 
   //polymorphism
 
-  
+  //
+  // polymorphism
+
+  //student But person(Uni stu,clg,Job holder,job trying), Business
+  //
+  Student taufiq = person('Taufiq');
+  Student Sabbir = BusinessMan('Sabbir');
+
+  taufiq.attendClass();
+  Sabbir.attendClass();
+
+  taufiq.examSubmit();
+
+  print(taufiq.runtimeType);
+  print(Sabbir.runtimeType);
+
+  print(taufiq is person);
+  print(taufiq is BusinessMan);
+  print(Sabbir is person);
+  print(Sabbir is BusinessMan);
+
+
+  print(Sabbir is Student);
+  print(taufiq is Student);
+
 }
 
