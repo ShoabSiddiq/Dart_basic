@@ -40,5 +40,9 @@ main(){
 
   BusinessMan Rahim= BusinessMan('Rahim');
   Rahim.examSubmit();
+
+  //polymorphism
+
+  
 }
-huuu
+
